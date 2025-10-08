@@ -1,0 +1,26 @@
+site_name: Open MiRoREA Project
+repo_url: https://github.com/Open-MiRoREA
+docs_dir: src
+site_dir: docs
+theme:
+  name: material
+  language: ja
+  icon:
+    logo: material/excavator
+  features:
+    - navigation.tabs          # 上部にタブ型メニュー
+    - navigation.expand
+    - navigation.footer
+    - toc.integrate
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - Home: index.md
+  - About: about.md
+  - MiRoREA Excavator:
+    - MiRoREA Excavatorの概要: mirorea_excavator/index.md
+  - MiRoREA Dump Truck:
+    - MiRoREA Dump Truckの概要: mirorea_dump_truck/index.md
+copyright: © 2025 Ryosuke Yajima, Open MiRoREA Project
