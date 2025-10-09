@@ -5,12 +5,13 @@
 Open MiRoREA Project（オープン ミロリア プロジェクト）は，土木を中心とした建設の自動化に関する研究開発と教育を促進することを目的とし，実験室・教室規模で動かせるサイズの小型模型建設ロボットのハードウェアやソフトウェアをオープン化するプロジェクトです． 
 
 
-## :material-update: What's New
+## :material-update: What's new
 
+- 2025-10-10: ショベルとダンプの各ロボットの概要ページを更新しました．
 - 2025-10-09: 本プロジェクトページを公開しました．
 
 
-## :material-excavator: Robots and Systems
+## :material-excavator: Robots and systems
 
 - ショベル
     - [MiRoREA Excavator](mirorea_excavator/index.md): 市販のラジコンをロボット化したショベル
