@@ -24,4 +24,4 @@ MiRoREA Excavatorは，市販のラジコンをベースに，制御用ボード
 
 ## License and Terms of Use
 
-Coming soon
+Under preparation

@@ -21,4 +21,4 @@ MiRoREA Dump Truckは，シリアルサーボモータを用いたベッセル�
 
 ## License and Terms of Use
 
-Coming soon
+Under preparation

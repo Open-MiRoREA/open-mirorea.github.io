@@ -13,10 +13,21 @@ Open MiRoREA Project（オープン ミロリア プロジェクト）は，土�
 
 ## :material-excavator: Robots and systems
 
-- ショベル
-    - [MiRoREA Excavator](mirorea_excavator/index.md): 市販のラジコンをロボット化したショベル
-- ダンプトラック
-    - [MiRoREA Dump Truck](mirorea_dump_truck/index.md): スマートモータを使った対向二輪型のダンプトラック
+<div class="grid cards" markdown>
+
+-   :material-excavator: [MiRoREA Excavator](mirorea_excavator/index.md)
+
+    ---
+    
+    市販のラジコンをベースに，制御用ボードPCやセンサ等を組み込みロボット化した，ショベル型の模型建設ロボット
+
+-   :material-dump-truck: [MiRoREA Dump Truck](mirorea_dump_truck/index.md)
+
+    ---
+
+    シリアルサーボモータを用いたベッセル付きの対向二輪のダンプトラック型の模型建設ロボット
+
+</div>
 
 
 ## :material-link: Links
