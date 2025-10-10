@@ -33,3 +33,29 @@ MiRoREAは，**Mi**niature **Ro**botic System for **R**eserch and **E**ducation 
 
 4. **コミュニティの形成**（将来的に検討）  
 情報や経験を共有し，課題をともに解決できる場となるコミュニティを形成し，相互の技術力の向上とプロジェクトの持続的な発展につなげる．
+
+
+## :material-bullhorn-outline: Status and support
+
+本プロジェクトは2025年現在，主に管理者1名で進めているため，以下の点についてご理解ください．
+
+- 人手が限られており，他の業務もあるため，進行の遅れや手の回らない部分が生じることがあります．  
+- 管理者は機械がバックグラウンドのため，電気やソフトウェアに関して十分に対応できていない部分があります．  
+- 現在は予算を伴わず運営しています．  
+
+本プロジェクトの目的や方針にご理解・ご賛同いただき，その趣旨に沿って技術的または資金的に協力していただける方を募集しています．
+
+
+## :material-license: License and Terms of Use
+
+Under preparation
+
+
+## :material-hands-pray: Acknowledgements
+
+Under preparation
+
+
+## :material-account-multiple-outline: Members
+
+- 谷島諒丞（芝浦工業大学）
