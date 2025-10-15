@@ -13,6 +13,7 @@ Open MiRoREA Project（オープン ミロリア プロジェクト）は，土�
 
 MiRoREAは，**Mi**niature **Ro**botic System for **R**eserch and **E**ducation in **A**utomated Constructionの略です．
 
+
 ## :material-bullseye-arrow: Purpose
 
 本プロジェクトは，土木を中心とした建設分野における自動化技術の研究開発と教育を促進することを目的としています．  
@@ -48,12 +49,17 @@ MiRoREAは，**Mi**niature **Ro**botic System for **R**eserch and **E**ducation 
 
 ## :material-license: License and Terms of Use
 
-Under preparation
+（Under preparation）
+
+ライセンスや利用条件は各ロボットのドキュメントや各リポジトリ等に記載されている内容に従ってください．  
+
+現在，本プロジェクトの内容をもとにした販売，営利目的での利用は禁止しています．  
+研究機関，教育機関，企業，団体内での研究開発，教育，試作などの目的での利用は問題ありません．  
 
 
 ## :material-hands-pray: Acknowledgements
 
-Under preparation
+（Under preparation）
 
 
 ## :material-account-multiple-outline: Members

@@ -7,8 +7,13 @@ Open MiRoREA Project（オープン ミロリア プロジェクト）は，土�
 
 ## :material-update: What's new
 
-- 2025-10-10: ショベルとダンプの各ロボットの概要ページを更新しました．
-- 2025-10-09: 本プロジェクトページを公開しました．
+- **2025-10-16**  
+    MiRoREA Excavatorのハードウェアの作り方の一部を更新しました．  
+    （書きやすいところから書いて順次更新しているので，まだ作れる状態ではありません．完成次第お知らせします．）  
+- **2025-10-10**  
+    ショベルとダンプの各ロボットの概要ページを更新しました．
+- **2025-10-09**  
+    本プロジェクトページを公開しました.  
 
 
 ## :material-excavator: Robots and systems
@@ -37,4 +42,4 @@ Open MiRoREA Project（オープン ミロリア プロジェクト）は，土�
 
 ## :material-email-outline: Contact
 
-Coming soon
+（Under preparation）

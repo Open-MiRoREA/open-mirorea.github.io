@@ -26,15 +26,18 @@ nav:
   - About: about.md
   - MiRoREA Excavator:
     - MiRoREA Excavatorの概要: mirorea_excavator/index.md
-    # - システム構成: mirorea_excavator/architecture.md
-    - ハードウェアのセットアップ:
-      - ハードウェアのセットアップの概要: mirorea_excavator/hardware/index.md
-      # - Step 0 準備と部品: mirorea_excavator/hardware/prep_parts.md
-    #   - Step 1 3Dプリント部品の造形: mirorea_excavator/hardware/3dprinting.md
-    #   - Step 2 はんだ付けとケーブルの製作: mirorea_excavator/hardware/solder_cables.md
-    #   - Step 3 ラジコンの分解: mirorea_excavator/hardware/disassembly.md
-    #   - Step 4 組み立て: mirorea_excavator/hardware/assembly.md
-    #   - Step 5 配線: mirorea_excavator/hardware/wiring.md
+    - システム構成: mirorea_excavator/architecture.md
+    - ハードウェアの作り方:
+      - ハードウェアの作り方の概要: mirorea_excavator/hardware/index.md
+      - Step 0 準備と部品: mirorea_excavator/hardware/prep_parts.md
+      - Step 1 3Dプリント部品の造形: mirorea_excavator/hardware/3dprinting.md
+      - Step 2 はんだ付けとケーブルの製作: mirorea_excavator/hardware/solder_cables.md
+      - Step 3 ベースラジコンの分解: mirorea_excavator/hardware/disassem.md
+      - Step 4 ポテンショメータの取り付け: mirorea_excavator/hardware/potentio.md
+      - Step 5 旋回角推定センサの取り付け: mirorea_excavator/hardware/rot_sensor.md
+      - Step 6 カバーの取り付け: mirorea_excavator/hardware/cover.md
+      - Step 7 配線: mirorea_excavator/hardware/wiring.md
+    
     # - ソフトウェアのセットアップ:
     #   - 概要: mirorea_excavator/software/index.md
     #   - 準備とデータ: mirorea_excavator/software/prep_data.md

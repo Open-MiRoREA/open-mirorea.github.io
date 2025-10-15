@@ -4,6 +4,10 @@ MiRoREA Dump Truckは，シリアルサーボモータを用いたベッセル�
 
 ![MiRoREA Dump Truck overview](./images/mirorea_dump_truck.jpg){ style="display:block; margin:0 auto; width:300px;" }
 
+!!! warning
+    使用しているモータが入手しにくくなっているため，別のモータへの変更を検討しています．  
+    しばらくお待ちください．  
+
 
 ## Capabilities
 

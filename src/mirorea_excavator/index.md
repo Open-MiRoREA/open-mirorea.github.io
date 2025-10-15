@@ -4,6 +4,12 @@ MiRoREA Excavatorは，市販のラジコンをベースに，制御用ボード
 
 ![MiRoREA Excavator overview](./images/mirorea_excavator.jpg){ style="display:block; margin:0 auto; width:300px;" }
 
+!!! info "作業・公開の進捗状況"
+    - **概要**: 執筆中，一部完成
+    - **システム構成**: 準備中
+    - **ハードウェアの作り方**: 概要は完成，Step 0 準備と部品を執筆中
+    - **ソフトウェアのセットアップ**: 未着手
+
 
 ## Capabilities
 
@@ -24,4 +30,4 @@ MiRoREA Excavatorは，市販のラジコンをベースに，制御用ボード
 
 ## License and Terms of Use
 
-Under preparation
+Under preparation  
