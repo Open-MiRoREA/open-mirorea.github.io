@@ -678,7 +678,7 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      リングの取り付け
+      センサユニットの組み立て
     </span>
   </a>
   
@@ -687,7 +687,7 @@
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      ケーブルの配線
+      使用するグラデーション付きテープの選定
     </span>
   </a>
   
@@ -696,7 +696,25 @@
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      グラデーション付きテープ・フォトリフレクタの取り付け
+      リングの取り付け
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      グラデーション付きテープの貼り付け
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      センサユニットの取り付けとケーブルの配線
     </span>
   </a>
   
@@ -865,12 +883,24 @@
 
 
 <h1 id="step-5">Step 5 旋回角推定センサの取り付け</h1>
-<h2 id="_1">リングの取り付け</h2>
-<p>旋回角推定用のグラデーション付きテープを貼り付ける土台となるリングを取り付けます．<br />
+<p>下部走行体と上部旋回体の間の旋回角は，他の関節と異なり，グラデーション付きテープを貼り付けたリングとフォトリフレクタを用いて推定します．<br />
+これは，白から黒に変化するグラデーションのついたテープを下部走行体の旋回軸の周りに貼り付け，テープを読み取るように設置したフォトリフレクタを上部旋回体と一緒に回転させることで，フォトリフレクタの受光強度から対応する角度を推定するものです．<br />
+精度は良くありませんが，簡単に後付けで旋回角を推定することができます．<br />
+下記に従い，土台となるリング，グラデーション付きテープ，フォトリフレクタを取り付けてください．  </p>
+<h2 id="_1">センサユニットの組み立て</h2>
+<p>フォトリフレクタのユニットを組み立てます．<br />
+下図のように，フォトリフレクタ等をはんだ付けした基板とフォトリフレクタの周囲を覆う3Dプリント部品をねじ止めして組み立ててください．<br />
+ピンヘッダが3Dプリント部品の穴に収まり，ねじが入る穴の位置が合う向きが正しい向きです．</p>
+<p><img alt="" src="../../images/assem_rot_sensor1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_rot_sensor2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<h2 id="_2">使用するグラデーション付きテープの選定</h2>
+<p>（Under preparation）</p>
+<h2 id="_3">リングの取り付け</h2>
+<p>旋回角推定用のグラデーション付きテープを貼り付ける土台となるリングを下部走行体に取り付けます．<br />
 リングは，左右に分割された点対称の構造を持つ3Dプリント部品です．  </p>
 <p><img alt="" src="../../images/assem_rot_ring1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
 <p>これを下部走行体と上部旋回体の間に取り付けます．<br />
-すき間から差し込み，下図のように，リングの内側の凸部と下部走行体の旋回部分の台座の凹部がかみ合い，かつ，リングの耳が中央に来るようにしてください．  </p>
+すき間から差し込み，下図のように，リングの内側の凸部と下部走行体の旋回部分の台座の凹部がかみ合い，かつ，リングの耳が下部走行体の左右の中央に来るようにしてください．  </p>
 <p><img alt="" src="../../images/assem_rot_ring2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
 <p><img alt="" src="../../images/assem_rot_ring3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
 <p><img alt="" src="../../images/assem_rot_ring4.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
@@ -878,8 +908,47 @@
 前後共に同様に接着してください．  </p>
 <p><img alt="" src="../../images/assem_rot_ring5.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
 <p><img alt="" src="../../images/assem_rot_ring6.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
-<h2 id="_2">ケーブルの配線</h2>
-<p>フォトリフレクタとADコンバータを接続するケーブルを配線します．<br />
+<h2 id="_4">グラデーション付きテープの貼り付け</h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>リングの接着直後は剝がれやすいため，ある程度固定されるまで少し時間を空けてから次の作業に移った方が良いかもしれません．  </p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>グラデーションの白と黒が切り替わる位置をショベルの下部走行体の前側に合わせる必要があります．<br />
+ショベルの前後は，クローラのスプロケットで見分けることができます．<br />
+クローラのスプロケットが従動側（自由に回転する側）が前，駆動側（モータで回転する側）が後ろです．<br />
+また，上部旋回体は，左右に約300度ずつ回転するので，手で回してそれを基準に確認することもできます．    </p>
+</div>
+<p>グラデーション付きテープをリングに貼り付けます．<br />
+下図のように，グラデーション付きテープの裏面に両面テープを貼り付けてください．<br />
+全面に両面テープを貼ると作業しづらいため，間隔を空けて数か所で構いません．  </p>
+<p><img alt="" src="../../images/assem_rot_tape1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>グラデーション付きテープの片方の端の両面テープの剝離紙は残し，残りは剝がし，貼り付けられる状態にします．<br />
+（以降は，黒い方の端の剥離紙を残した場合で説明しますが，逆でも構いません．）<br />
+下図のように，剥離紙を残した側の端を下部走行体の中央に合わせて，グラデーション付きテープをリングに貼り付けていきます．<br />
+リングから浮き上がらないようにきれいに貼ってください．<br />
+一周したら，剥離紙を残した側の端を離し，先に反対側の端を貼り付けます．  </p>
+<p><img alt="" src="../../images/assem_rot_tape2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_rot_tape3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>最後に，残りの剥離紙も剥がし，リングに貼り付けます．<br />
+印刷サイズが間違っていなければ，グラデーション付きテープは端が少し重なるように貼られ，白と黒が切り替わる位置がちょうど下部走行体の中央に来るはずです．</p>
+<p><img alt="" src="../../images/assem_rot_tape4.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<h2 id="_5">センサユニットの取り付けとケーブルの配線</h2>
+<p>フォトリフレクタのユニットを上部旋回体に取り付け，ADコンバータに接続するケーブルを配線します．<br />
+まず，下図のように，フォトリフレクタのユニットの上部（ピンヘッダがある側）に両面テープを貼ります．  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>センサの取り付け位置の調整が必要になることがある一方で，途中で落ちると計測できなくなるので，両面テープは適度に強めのものが良いです．<br />
+また，取り付け位置に凹凸があるため，少し厚めの両面テープを用いた方が，取り付けやすいです．  </p>
+</div>
+<p><img alt="" src="../../images/assem_rot_wiring1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>上部旋回体の後方の裏面に，フォトリフレクタのユニットを貼り付けます．<br />
+上部旋回体の左右の中央になるようにし，かつ，リングから約1 mm程度離して取り付けてください．<br />
+（図は既にケーブルが取り付けられていますが，気にしないでください．）  </p>
+<p><img alt="" src="../../images/assem_rot_wiring2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_rot_wiring3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>次に，フォトリフレクタとADコンバータを接続するケーブルを配線します．<br />
 上部旋回体の後方に，元々ラジコンの電源スイッチがついていた穴があるので，そこから裏側に通します．  </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -887,10 +956,10 @@
 押し込めば通りましたが，製品のばらつきにより通らないことがあるかもしれません．<br />
 その場合は，一度コネクタのハウジングを外しケーブルを通してからつけ直すか，穴を広げるかする必要があります．  </p>
 </div>
-<p><img alt="" src="../../images/assem_rot_cable1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
-<p><img alt="" src="../../images/assem_rot_cable2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
-<h2 id="_3">グラデーション付きテープ・フォトリフレクタの取り付け</h2>
-<p>（Under preparation）</p>
+<p><img alt="" src="../../images/assem_rot_wiring4.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_rot_wiring5.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>最後に，裏に通したケーブルのコネクタをフォトリフレクタのユニットに接続します．  </p>
+<p><img alt="" src="../../images/assem_rot_wiring6.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
 
 
 
