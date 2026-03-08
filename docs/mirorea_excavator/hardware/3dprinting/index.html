@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#step-1-3d" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -535,6 +540,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Step 1 3Dプリント部品の造形
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -547,6 +567,142 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stlcad" class="md-nav__link">
+    <span class="md-ellipsis">
+      STLファイルとCADデータ
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3d" class="md-nav__link">
+    <span class="md-ellipsis">
+      基本的な3Dプリンタの設定
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ブーム用ポテンショメータマウント
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      ブーム用ポテンショメータシャフト
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      アーム用ポテンショメータマウント
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      アーム用ポテンショメータシャフト
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      バケット用ポテンショメータマウント
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      バケット用ポテンショメータシャフト
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      旋回軸用フォトリフレクタホルダ
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      旋回軸用グラデーションリング
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      バッテリホルダベース
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      バッテリホルダ
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rasppbery-pi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rasppbery Piマウント
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -629,7 +785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rot_sensor/" class="md-nav__link">
+      <a href="../swing_sensor/" class="md-nav__link">
         
   
   
@@ -798,9 +954,190 @@
   
 
 
-  <h1>Step 1 3Dプリント部品の造形</h1>
-
-<p>（Under preparation）</p>
+<h1 id="step-1-3d">Step 1 3Dプリント部品の造形</h1>
+<p>センサやボードPCの取り付けに3Dプリントした部品を使います．<br />
+下記に従い3Dプリントしてください．  </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>公開するにあたり，CADソフトのライセンスの関係で，全ての部品のデータを作り直しています．<br />
+オリジナルの部品と同じ寸法で設計していますが，CADソフトの機能の関係で設計を変更している箇所があります．<br />
+主要な箇所の形状が一致することを確認していますが，2026年3月現在，実際に3Dプリントして組み立てられるかの検証はできていません．  </p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>使用していたモバイルバッテリー（Anker PowerCore 10000）がリコールになり，入手できなくなりました．<br />
+2026年3月現在，代替品を検討中で，バッテリマウントのCADデータはAnker PowerCore 10000用しかありません．  </p>
+</div>
+<h2 id="stlcad">STLファイルとCADデータ</h2>
+<p>3Dプリントに必要なSTLファイルは，下記にアップロードしています．<br />
+ダウンロードして利用してください．<br />
+また，もとになっているFreeCADのCADデータ，および中間ファイルのSTEPファイルもアップロードしています．  </p>
+<p><a href="https://github.com/Open-MiRoREA/mirorea_excavator_cad">https://github.com/Open-MiRoREA/mirorea_excavator_cad</a></p>
+<h2 id="3d">基本的な3Dプリンタの設定</h2>
+<p>組み立てに必要な形状を再現でき，十分な強度があれば，基本的にはどのような設定でも構いません．<br />
+これまで製作した際には，概ね下記のような設定で3Dプリントしました．</p>
+<ul>
+<li><strong>3Dプリント方式</strong><br />
+    FDM方式</li>
+<li><strong>フィラメント</strong><br />
+    PLA</li>
+<li><strong>ノズル</strong><br />
+    0.4 mm</li>
+<li><strong>積層ピッチ</strong><br />
+    0.2～0.3 mm</li>
+<li><strong>上下面の厚さ</strong><br />
+    3～5層程度になる厚さ</li>
+<li><strong>壁の厚さ</strong><br />
+    3～5層程度になる厚さ</li>
+<li><strong>インフィル密度</strong><br />
+    50 %程度だったと思います．<br />
+    比較的どのパーツも小さく薄いので，インフィルをどう設定してもほぼ100 %と同様になると思います．<br />
+    バッテリマウントについては，多少下げても良いと思います．<br />
+    また，面の広いパーツについては，インフィルを適当に下げて，上下の仕上げ面をなし（0層）にすることで，インフィルを露出させて，メッシュにすることもありました．  </li>
+</ul>
+<p>必要に応じて変更して構いません．<br />
+その他の設定については，各自の環境に合わせて設定してください．<br />
+積層方向とサポート材の有無，必要個数については，下記の各パーツごとの説明を参照してください．    </p>
+<h2 id="_1">ブーム用ポテンショメータマウント</h2>
+<p>ブームの関節角度を測るポテンショメータを固定するためのマウントです．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    boom_potentiometer_mount.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    不要</li>
+<li><strong>積層方向</strong><br />
+<img alt="" src="../../images/3dprint_boom1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></li>
+</ul>
+<h2 id="_2">ブーム用ポテンショメータシャフト</h2>
+<p>ブームの関節角度を測るポテンショメータを回転させるための軸です．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    boom_potentiometer_shaft.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    必要</li>
+<li>
+<p><strong>積層方向</strong><br />
+    根元の片側が斜めにカットされているため，図のように，その面が上になるように設定してください．  </p>
+<p><img alt="" src="../../images/3dprint_boom2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+</li>
+</ul>
+<h2 id="_3">アーム用ポテンショメータマウント</h2>
+<p>アームの関節角度を測るポテンショメータを固定するためのマウントです．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    arm_potentiometer_mount.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    不要</li>
+<li><strong>積層方向</strong><br />
+<img alt="" src="../../images/3dprint_arm1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></li>
+</ul>
+<h2 id="_4">アーム用ポテンショメータシャフト</h2>
+<p>アームの関節角度を測るポテンショメータを回転させるための軸です．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    arm_potentiometer_shaft.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    必要</li>
+<li><strong>積層方向</strong><br />
+<img alt="" src="../../images/3dprint_arm2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></li>
+</ul>
+<h2 id="_5">バケット用ポテンショメータマウント</h2>
+<p>バケットの関節角度を測るポテンショメータを固定するためのマウントです．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    bucket_potentiometer_mount.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    必要</li>
+<li><strong>積層方向</strong><br />
+<img alt="" src="../../images/3dprint_bucket1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></li>
+</ul>
+<h2 id="_6">バケット用ポテンショメータシャフト</h2>
+<p>バケットの関節角度を測るポテンショメータを回転させるための軸です．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    bucket_potentiometer_shaft.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    必要</li>
+<li>
+<p><strong>積層方向</strong><br />
+    外側のカットされた面が下になるように設定してください．  </p>
+<p><img alt="" src="../../images/3dprint_bucket2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/3dprint_bucket3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/3dprint_bucket4.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+</li>
+</ul>
+<h2 id="_7">旋回軸用フォトリフレクタホルダ</h2>
+<p>下部走行体と上部旋回体の間の旋回角の推定に用いるフォトリフレクタのホルダ（カバー）です．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    swing_photointerrupter_holder.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    不要</li>
+<li><strong>積層方向</strong><br />
+<img alt="" src="../../images/3dprint_swing1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></li>
+</ul>
+<h2 id="_8">旋回軸用グラデーションリング</h2>
+<p>下部走行体と上部旋回体の間の旋回角の推定に用いるグラデーションのついたテープを貼り付けるリング状の台座です．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    swing_gradation_ring.stl</li>
+<li><strong>必要個数</strong><br />
+    2</li>
+<li><strong>サポート材</strong><br />
+    不要</li>
+<li><strong>積層方向</strong><br />
+<img alt="" src="../../images/3dprint_swing2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></li>
+</ul>
+<h2 id="_9">バッテリホルダベース</h2>
+<p>キャビンがあった場所にモバイルバッテリ用のホルダを取り付けるための台座です．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    battery_holder_base.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    必要</li>
+<li><strong>積層方向</strong><br />
+<img alt="" src="../../images/3dprint_battery1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></li>
+</ul>
+<h2 id="_10">バッテリホルダ</h2>
+<p>制御用電源として用いるモバイルバッテリを載せるホルダです．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    battery_holder_anker_powercore_10000.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    不要</li>
+<li><strong>積層方向</strong><br />
+<img alt="" src="../../images/3dprint_battery2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></li>
+</ul>
+<h2 id="rasppbery-pi">Rasppbery Piマウント</h2>
+<p>Rasppbery Piを取り付けるための台座兼駆動用バッテリ搭載スペースのカバーです．  </p>
+<ul>
+<li><strong>STLファイル</strong><br />
+    raspberrypi_mount.stl</li>
+<li><strong>必要個数</strong><br />
+    1</li>
+<li><strong>サポート材</strong><br />
+    必要</li>
+<li><strong>積層方向</strong><br />
+<img alt="" src="../../images/3dprint_raspi.jpg" style="display:block; margin:0 auto; max-height:300px;" /></li>
+</ul>
 
 
 
