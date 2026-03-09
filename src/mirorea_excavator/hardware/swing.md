@@ -79,7 +79,7 @@
 ![](../images/assem_swing_tape4.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## センサユニットの取り付けとケーブルの配線
+## センサユニットの取り付け
 
 フォトリフレクタのユニットを上部旋回体に取り付け，ADコンバータに接続するケーブルを配線します．  
 まず，下図のように，フォトリフレクタのユニットの上部（ピンヘッダがある側）に両面テープを貼ります．  
@@ -88,28 +88,11 @@
     センサの取り付け位置の調整が必要になることがある一方で，途中で落ちると計測できなくなるので，両面テープは適度に強めのものが良いです．  
     また，取り付け位置に凹凸があるため，少し厚めの両面テープを用いた方が，取り付けやすいです．  
 
-![](../images/assem_swing_wiring1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/assem_swing_attach1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 上部旋回体の後方の裏面に，フォトリフレクタのユニットを貼り付けます．  
-上部旋回体の左右の中央になるようにし，かつ，リングから約1 mm程度離して取り付けてください．  
-（図は既にケーブルが取り付けられていますが，気にしないでください．）  
+上部旋回体の左右の中央になるようにし，かつ，リングから約1 mm程度離して取り付けてください．   
 
-![](../images/assem_swing_wiring2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/assem_swing_attach2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
-![](../images/assem_swing_wiring3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
-
-次に，フォトリフレクタとADコンバータを接続するケーブルを配線します．  
-上部旋回体の後方に，元々ラジコンの電源スイッチがついていた穴があるので，そこから裏側に通します．  
-
-!!! note
-    穴の幅とコネクタの幅がほぼぴったりでした．  
-    押し込めば通りましたが，製品のばらつきにより通らないことがあるかもしれません．  
-    その場合は，一度コネクタのハウジングを外しケーブルを通してからつけ直すか，穴を広げるかする必要があります．  
-
-![](../images/assem_swing_wiring4.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
-
-![](../images/assem_swing_wiring5.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
-
-最後に，裏に通したケーブルのコネクタをフォトリフレクタのユニットに接続します．  
-
-![](../images/assem_swing_wiring6.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/assem_swing_attach3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }

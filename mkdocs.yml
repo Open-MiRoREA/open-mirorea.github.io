@@ -34,9 +34,8 @@ nav:
       - Step 2 はんだ付けとケーブルの製作: mirorea_excavator/hardware/solder_cables.md
       - Step 3 ベースラジコンの分解: mirorea_excavator/hardware/disassem.md
       - Step 4 ポテンショメータの取り付け: mirorea_excavator/hardware/potentio.md
-      - Step 5 旋回角推定センサの取り付け: mirorea_excavator/hardware/swing_sensor.md
-      - Step 6 カバーの取り付け: mirorea_excavator/hardware/cover.md
-      - Step 7 配線: mirorea_excavator/hardware/wiring.md
+      - Step 5 旋回角推定センサの取り付け: mirorea_excavator/hardware/swing.md
+      - Step 6 配線と組立て: mirorea_excavator/hardware/wiring_assem.md
     
     # - ソフトウェアのセットアップ:
     #   - 概要: mirorea_excavator/software/index.md
