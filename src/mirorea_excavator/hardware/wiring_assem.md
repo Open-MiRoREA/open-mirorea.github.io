@@ -1,81 +1,31 @@
-<!-- # Step 6 配線と組立て -->
+<!-- # Step 6 組立てと配線 -->
 
-最後に配線と取り外した後部カバーの取り付けを行い，動かせる状態にします．  
-
-
-## クローラ用，旋回・ブーム用モータケーブルの延長
-
-クローラを回転させるモータのケーブルと旋回軸とブームを回転させるモータのケーブルが元の状態だと短いため，カバーの外に出るように延長します．  
-
-!!! note
-    ここでは，元々ついているケーブルを切断し，追加のケーブルを間にはんだ付けして延長する方法を説明します．  
-    ただし，必要な長さになって，端に元と同じ規格のコネクタがついていれば他の方法でも構いません．  
-    他の方法としては，  
-
-    - ケーブルをすべて作り直し，モータにはんだ付けする．  
-    - コネクタを両端に付けた延長分の長さのケーブルを作り，中継コネクタで接続する．  
-    
-    などがあります．  
-
-元々ついているクローラ用モータケーブルと旋回・ブーム用モータケーブルをぞれぞれ切断します．  
-
-![](../images/wiring_motor1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
-
-ケーブルの作製で用意した4芯，長さ150 mmのリボンケーブルと切断したケーブルの被膜を剥いで芯線をはんだ付けしてつなぎます．  
-必ず元のケーブルの同じ色の線同士が繋がって,延長された状態になっていることを確認してください．  
-また，隣の線の間で導通しないように，熱収縮チューブを各線のはんだ付けした箇所に被せてください．  
-必要に応じて，はんだ付けした箇所がばらけないように，さらに外側から大きい熱収縮チューブでまとめても構いません．  
-
-![](../images/cable_motor.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
-
-![](../images/wiring_motor2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
-
-![](../images/wiring_motor3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+最後に取り外したラジコンの部品や3Dプリント部品の取り付けと配線を行い，動かせる状態にします．  
 
 
-## フォトリフレクタ用ケーブルの配線
+## バッテリホルダの取り付け
 
-次に，フォトリフレクタとADコンバータを接続するケーブルを配線します．  
-上部旋回体の後方に，元々ラジコンの電源スイッチがついていた穴があるので，そこから裏側に通します．  
+3Dプリントしたバッテリホルダを取り付けます．  
 
-!!! note
-    穴の幅とコネクタの幅がほぼぴったりでした．  
-    押し込めば通りましたが，製品のばらつきにより通らないことがあるかもしれません．  
-    その場合は，一度コネクタのハウジングを外しケーブルを通してからつけ直すか，穴を広げるかする必要があります．  
+まず，バッテリホルダとベースを組み立てます．  
+ホルダの爪をベースの穴に合わせて差し込んでください．  
+ホルダとベースの後端が揃うところまで差し込めるはずです．  
 
-![](../images/wiring_swing1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/assem_battery1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
-![](../images/wiring_swing2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/assem_battery2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
-最後に，裏に通したケーブルのコネクタをフォトリフレクタのユニットに接続します．  
-コネクタ付近やケーブルを通した穴付近で，ケーブルをマスキングテープなどで止めておくと，旋回時に引っかかったり，コネクタが抜けたりすることを防止できます．  
+![](../images/assem_battery3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
-![](../images/wiring_swing3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+ショベル本体のキャビンがあった位置に，組み立てたバッテリホルダを取り付けます．  
+前側の2つの穴に爪を差し込み，後ろ側のネジ穴を合わせます．  
+元々キャビンに使っていたネジで，バッテリホルダを動かないように本体に固定します．  
 
+![](../images/assem_battery4.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
-## 電源ケーブルの延長
+![](../images/assem_battery5.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
-駆動用バッテリを繋ぐ電源ケーブルも元の状態だと短いため，カバーの外に出るように延長します． 
-
-!!! note
-    モータのケーブルと同様に，元々ついているコネクタを切断し，追加のケーブルをはんだ付けして延長する方法を説明しますが，他の方法でも構いません．  
-
-カバーの裏に伸びている電源ケーブルを先端で切断し，コネクタを取ります．  
-
-![](../images/wiring_battery1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
-
-
-
-ケーブルの作製で用意したXHコネクタを取り付けた長さ100 mmのダブルコードと切断したケーブルの被膜を剥いで芯線をはんだ付けしてつなぎます．  
-赤と赤，黒と黒の線同士が繋がって,延長された状態になっていることを確認してください．  
-また，隣の線の間で導通しないように，熱収縮チューブを各線のはんだ付けした箇所に被せてください．  
-
-![](../images/cable_battery3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
-
-![](../images/wiring_battery2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
-
-
-
+![](../images/assem_battery6.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
 ## 後部カバーの取り付け
@@ -93,7 +43,7 @@
 
 本体の後ろ側からカバーを被せるように取り付けます．  
 前後左右の位置，溝，右前方の手すりの穴が合うようにしてください．  
-ケーブルはまとめているので，バッテリーホルダー横の隙間から出ている状態になると思いますが，挟まないように注意してください．  
+ケーブルはまとめているので，バッテリホルダ横の隙間から出ている状態になると思いますが，挟まないように注意してください．  
 また，作業機（ブーム・アーム・バケット）側のモータやセンサのケーブルも挟まないように注意してください．  
 
 ![](../images/assem_cover3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
@@ -116,3 +66,31 @@
 ![](../images/wiring_arm_bucket1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 ![](../images/wiring_arm_bucket2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+
+## 各ケーブルのボードPCへの接続
+
+すべてのケーブルをRaspberry Piに重ねた基板上のコネクタに接続します．  
+
+まず，後部カバーの上のバッテリを載せるスペースに，Raspberry Piを載せた3Dプリントの蓋を載せます．  
+
+![](../images/wiring_raspi1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+駆動用バッテリの電源ケーブルと各モータにつながるケーブルを基板に接続します．  
+下図を参考に接続位置とコネクタの向きに気を付けてください．
+
+![](../images/wiring_raspi2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+各センサからのケーブルを基板に接続します．  
+下図を参考に接続位置とコネクタの向きに気を付けてください．  
+（特に，このコネクタは逆向きやずれた位置でも挿せてしまうので，注意してください．）  
+
+![](../images/wiring_raspi3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+![](../images/wiring_raspi4.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+![](../images/wiring_raspi5.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+最後に，制御用モバイルバッテリの電源ケーブル（USB Type-A to Type-C）をRaspberry PiのUSB Type-Cのポートに接続します．  
+
+![](../images/wiring_raspi6.jpg){ style="display:block; margin:0 auto; max-height:300px;" }

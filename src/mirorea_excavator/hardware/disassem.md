@@ -37,7 +37,7 @@ MiRoREA Excavatorは市販のショベル型のラジコンをベースにして
 ## 不要部品の取り外し
 
 ラジコン回路，スピーカは使用しないので，各ケーブルのコネクタを外した後で，それぞれの固定ねじを外し，取り外してください．  
-また，キャビンも使用しないため，取り外してください．  
+キャビンも使用しないため，取り外してください．  
 後部のねじを外し，前方の爪が外れるように引き抜くと取り外すことができます．  
 （2本のねじの内，1本は3Dプリント部品の取り付けに使用します．）
 
@@ -48,3 +48,7 @@ MiRoREA Excavatorは市販のショベル型のラジコンをベースにして
 ![](../images/disassem_circuit3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 ![](../images/disassem_cabin.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+また，後部カバー上のバッテリが入るスペースのカバーも使用しないので，取り外してください．  
+
+![](../images/disassem_lid.jpg){ style="display:block; margin:0 auto; max-height:300px;" }

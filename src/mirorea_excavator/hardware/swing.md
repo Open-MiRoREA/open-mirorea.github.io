@@ -96,3 +96,23 @@
 ![](../images/assem_swing_attach2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 ![](../images/assem_swing_attach3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+
+## フォトリフレクタ用ケーブルの配線
+
+次に，フォトリフレクタとADコンバータを接続するケーブルを配線します．  
+上部旋回体の後方に，元々ラジコンの電源スイッチがついていた穴があるので，そこから裏側に通します．  
+
+!!! note
+    穴の幅とコネクタの幅がほぼぴったりでした．  
+    押し込めば通りましたが，製品のばらつきにより通らないことがあるかもしれません．  
+    その場合は，一度コネクタのハウジングを外しケーブルを通してからつけ直すか，穴を広げるかする必要があります．  
+
+![](../images/wiring_swing1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+![](../images/wiring_swing2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+最後に，裏に通したケーブルのコネクタをフォトリフレクタのユニットに接続します．  
+コネクタ付近やケーブルを通した穴付近で，ケーブルをマスキングテープなどで止めておくと，旋回時に引っかかったり，コネクタが抜けたりすることを防止できます．  
+
+![](../images/wiring_swing3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
