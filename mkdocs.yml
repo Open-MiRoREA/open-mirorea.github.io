@@ -31,8 +31,8 @@ nav:
       - ハードウェアの作り方の概要: mirorea_excavator/hardware/index.md
       - Step 0 準備と部品: mirorea_excavator/hardware/prep_parts.md
       - Step 1 3Dプリント部品の造形: mirorea_excavator/hardware/3dprinting.md
-      - Step 2 はんだ付けとケーブルの製作: mirorea_excavator/hardware/solder_cables.md
-      - Step 3 ベースラジコンの分解: mirorea_excavator/hardware/disassem.md
+      - Step 2 ベースラジコンの分解: mirorea_excavator/hardware/disassem.md
+      - Step 3 はんだ付けとケーブルの製作: mirorea_excavator/hardware/solder_cables.md
       - Step 4 ポテンショメータの取り付け: mirorea_excavator/hardware/potentio.md
       - Step 5 旋回角推定センサの取り付け: mirorea_excavator/hardware/swing.md
       - Step 6 配線と組立て: mirorea_excavator/hardware/wiring_assem.md
