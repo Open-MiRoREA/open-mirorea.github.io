@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../swing_sensor/">
+        <link rel="prev" href="../potentio/">
       
       
-        <link rel="next" href="../wiring/">
+        <link rel="next" href="../wiring_assem/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Step 6 カバーの取り付け - Open MiRoREA Project</title>
+        <title>Step 5 旋回角推定センサの取り付け - Open MiRoREA Project</title>
       
     
     
@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -91,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Step 6 カバーの取り付け
+              Step 5 旋回角推定センサの取り付け
             
           </span>
         </div>
@@ -552,12 +557,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../solder_cables/" class="md-nav__link">
+      <a href="../disassem/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Step 2 はんだ付けとケーブルの製作
+    Step 2 ベースラジコンの分解
     
   </span>
   
@@ -575,12 +580,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../disassem/" class="md-nav__link">
+      <a href="../solder_cables/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Step 3 ベースラジコンの分解
+    Step 3 はんだ付けとケーブルの製作
     
   </span>
   
@@ -618,29 +623,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../swing_sensor/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Step 5 旋回角推定センサの取り付け
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -651,17 +633,101 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Step 5 旋回角推定センサの取り付け
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Step 6 カバーの取り付け
+    Step 5 旋回角推定センサの取り付け
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      センサユニットの組み立て
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用するグラデーション付きテープの選定
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      リングの取り付け
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      グラデーション付きテープの貼り付け
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      センサユニットの取り付け
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      フォトリフレクタ用ケーブルの配線
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -675,12 +741,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../wiring/" class="md-nav__link">
+      <a href="../wiring_assem/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Step 7 配線
+    Step 6 配線と組立て
     
   </span>
   
@@ -798,9 +864,88 @@
   
 
 
-  <h1>Step 6 カバーの取り付け</h1>
+  <h1>Step 5 旋回角推定センサの取り付け</h1>
 
+<!-- # Step 5 旋回角推定センサの取り付け -->
+
+<p>下部走行体と上部旋回体の間の旋回角は，他の関節と異なり，グラデーション付きテープを貼り付けたリングとフォトリフレクタを用いて推定します．<br />
+これは，白から黒に変化するグラデーションのついたテープを下部走行体の旋回軸の周りに貼り付け，テープを読み取るように設置したフォトリフレクタを上部旋回体と一緒に回転させることで，フォトリフレクタの受光強度から対応する角度を推定するものです．<br />
+精度は良くありませんが，簡単に後付けで旋回角を推定することができます．<br />
+下記に従い，土台となるリング，グラデーション付きテープ，フォトリフレクタを取り付けてください．  </p>
+<h2 id="_1">センサユニットの組み立て</h2>
+<p>フォトリフレクタのユニットを組み立てます．<br />
+下図のように，フォトリフレクタ等をはんだ付けした基板とフォトリフレクタの周囲を覆う3Dプリント部品をねじ止めして組み立ててください．<br />
+ピンヘッダが3Dプリント部品の穴に収まり，ねじが入る穴の位置が合う向きが正しい向きです．</p>
+<p><img alt="" src="../../images/assem_swing_sensor1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_swing_sensor2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<h2 id="_2">使用するグラデーション付きテープの選定</h2>
 <p>（Under preparation）</p>
+<h2 id="_3">リングの取り付け</h2>
+<p>旋回角推定用のグラデーション付きテープを貼り付ける土台となるリングを下部走行体に取り付けます．<br />
+リングは，左右に分割された点対称の構造を持つ3Dプリント部品です．  </p>
+<p><img alt="" src="../../images/assem_swing_ring1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>これを下部走行体と上部旋回体の間に取り付けます．<br />
+すき間から差し込み，下図のように，リングの内側の凸部と下部走行体の旋回部分の台座の凹部がかみ合い，かつ，リングの耳が下部走行体の左右の中央に来るようにしてください．  </p>
+<p><img alt="" src="../../images/assem_swing_ring2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_swing_ring3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_swing_ring4.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>両側同様に取り付けたら，下図の斜線の部分に接着剤をつけて左右のリングを接着してください．<br />
+前後共に同様に接着してください．  </p>
+<p><img alt="" src="../../images/assem_swing_ring5.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_swing_ring6.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<h2 id="_4">グラデーション付きテープの貼り付け</h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>リングの接着直後は剝がれやすいため，ある程度固定されるまで少し時間を空けてから次の作業に移った方が良いかもしれません．  </p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>グラデーションの白と黒が切り替わる位置をショベルの下部走行体の前側に合わせる必要があります．<br />
+ショベルの前後は，クローラのスプロケットで見分けることができます．<br />
+クローラのスプロケットが従動側（自由に回転する側）が前，駆動側（モータで回転する側）が後ろです．<br />
+また，上部旋回体は，左右に約300度ずつ回転するので，手で回してそれを基準に確認することもできます．    </p>
+</div>
+<p>グラデーション付きテープをリングに貼り付けます．<br />
+下図のように，グラデーション付きテープの裏面に両面テープを貼り付けてください．<br />
+全面に両面テープを貼ると作業しづらいため，間隔を空けて数か所で構いません．  </p>
+<p><img alt="" src="../../images/assem_swing_tape1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>グラデーション付きテープの片方の端の両面テープの剝離紙は残し，残りは剝がし，貼り付けられる状態にします．<br />
+（以降は，黒い方の端の剥離紙を残した場合で説明しますが，逆でも構いません．）<br />
+下図のように，剥離紙を残した側の端を下部走行体の中央に合わせて，グラデーション付きテープをリングに貼り付けていきます．<br />
+リングから浮き上がらないようにきれいに貼ってください．<br />
+一周したら，剥離紙を残した側の端を離し，先に反対側の端を貼り付けます．  </p>
+<p><img alt="" src="../../images/assem_swing_tape2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_swing_tape3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>最後に，残りの剥離紙も剥がし，リングに貼り付けます．<br />
+印刷サイズが間違っていなければ，グラデーション付きテープは端が少し重なるように貼られ，白と黒が切り替わる位置がちょうど下部走行体の中央に来るはずです．</p>
+<p><img alt="" src="../../images/assem_swing_tape4.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<h2 id="_5">センサユニットの取り付け</h2>
+<p>フォトリフレクタのユニットを上部旋回体に取り付け，ADコンバータに接続するケーブルを配線します．<br />
+まず，下図のように，フォトリフレクタのユニットの上部（ピンヘッダがある側）に両面テープを貼ります．  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>センサの取り付け位置の調整が必要になることがある一方で，途中で落ちると計測できなくなるので，両面テープは適度に強めのものが良いです．<br />
+また，取り付け位置に凹凸があるため，少し厚めの両面テープを用いた方が，取り付けやすいです．  </p>
+</div>
+<p><img alt="" src="../../images/assem_swing_attach1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>上部旋回体の後方の裏面に，フォトリフレクタのユニットを貼り付けます．<br />
+上部旋回体の左右の中央になるようにし，かつ，リングから約1 mm程度離して取り付けてください．   </p>
+<p><img alt="" src="../../images/assem_swing_attach2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/assem_swing_attach3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<h2 id="_6">フォトリフレクタ用ケーブルの配線</h2>
+<p>次に，フォトリフレクタとADコンバータを接続するケーブルを配線します．<br />
+上部旋回体の後方に，元々ラジコンの電源スイッチがついていた穴があるので，そこから裏側に通します．  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>穴の幅とコネクタの幅がほぼぴったりでした．<br />
+押し込めば通りましたが，製品のばらつきにより通らないことがあるかもしれません．<br />
+その場合は，一度コネクタのハウジングを外しケーブルを通してからつけ直すか，穴を広げるかする必要があります．  </p>
+</div>
+<p><img alt="" src="../../images/wiring_swing1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p><img alt="" src="../../images/wiring_swing2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<p>最後に，裏に通したケーブルのコネクタをフォトリフレクタのユニットに接続します．<br />
+コネクタ付近やケーブルを通した穴付近で，ケーブルをマスキングテープなどで止めておくと，旋回時に引っかかったり，コネクタが抜けたりすることを防止できます．  </p>
+<p><img alt="" src="../../images/wiring_swing3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
 
 
 
@@ -821,6 +966,12 @@
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  ページトップへ戻る
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -830,7 +981,7 @@
       <nav class="md-footer__inner md-grid" aria-label="フッター" >
         
           
-          <a href="../swing_sensor/" class="md-footer__link md-footer__link--prev" aria-label="前: Step 5 旋回角推定センサの取り付け">
+          <a href="../potentio/" class="md-footer__link md-footer__link--prev" aria-label="前: Step 4 ポテンショメータの取り付け">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -840,20 +991,20 @@
                 前
               </span>
               <div class="md-ellipsis">
-                Step 5 旋回角推定センサの取り付け
+                Step 4 ポテンショメータの取り付け
               </div>
             </div>
           </a>
         
         
           
-          <a href="../wiring/" class="md-footer__link md-footer__link--next" aria-label="次: Step 7 配線">
+          <a href="../wiring_assem/" class="md-footer__link md-footer__link--next" aria-label="次: Step 6 配線と組立て">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 次
               </span>
               <div class="md-ellipsis">
-                Step 7 配線
+                Step 6 配線と組立て
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -893,7 +1044,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.expand", "navigation.footer", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.expand", "navigation.top", "navigation.footer", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
     
     
       <script src="../../../assets/javascripts/bundle.50899def.min.js"></script>
