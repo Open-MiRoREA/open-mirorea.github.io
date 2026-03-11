@@ -94,3 +94,16 @@
 最後に，制御用モバイルバッテリの電源ケーブル（USB Type-A to Type-C）をRaspberry PiのUSB Type-Cのポートに接続します．  
 
 ![](../images/wiring_raspi6.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+
+## クローラベルトの取り付け
+
+取り外したクローラベルトを再度取り付けます．  
+基本的には分解と逆の手順で行えばよいです．  
+駆動側（後ろのモータで回転する側）のスプロケットにベルトを掛けてから，従動側（前の自由に回転する側）に掛けるのがやりやすいと思います．  
+
+![](../images/assem_belt1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+![](../images/assem_belt2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+![](../images/assem_belt3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
