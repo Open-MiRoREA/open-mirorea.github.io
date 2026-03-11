@@ -50,7 +50,9 @@
 積層方向とサポート材の有無，必要個数については，下記の各パーツごとの説明を参照してください．    
  
 
-## ブーム用ポテンショメータマウント
+## 各パーツの詳細
+
+### ブーム用ポテンショメータマウント
 
 ブームの関節角度を測るポテンショメータを固定するためのマウントです．  
 
@@ -64,7 +66,7 @@
     ![](../images/3dprint_boom1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## ブーム用ポテンショメータシャフト
+### ブーム用ポテンショメータシャフト
 
 ブームの関節角度を測るポテンショメータを回転させるための軸です．  
 
@@ -80,7 +82,7 @@
     ![](../images/3dprint_boom2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## アーム用ポテンショメータマウント
+### アーム用ポテンショメータマウント
 
 アームの関節角度を測るポテンショメータを固定するためのマウントです．  
 
@@ -94,7 +96,7 @@
     ![](../images/3dprint_arm1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## アーム用ポテンショメータシャフト
+### アーム用ポテンショメータシャフト
 
 アームの関節角度を測るポテンショメータを回転させるための軸です．  
 
@@ -108,7 +110,7 @@
     ![](../images/3dprint_arm2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## バケット用ポテンショメータマウント
+### バケット用ポテンショメータマウント
 
 バケットの関節角度を測るポテンショメータを固定するためのマウントです．  
 
@@ -122,7 +124,7 @@
     ![](../images/3dprint_bucket1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## バケット用ポテンショメータシャフト
+### バケット用ポテンショメータシャフト
 
 バケットの関節角度を測るポテンショメータを回転させるための軸です．  
 
@@ -142,7 +144,7 @@
     ![](../images/3dprint_bucket4.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## 旋回軸用フォトリフレクタホルダ
+### 旋回軸用フォトリフレクタホルダ
 
 下部走行体と上部旋回体の間の旋回角の推定に用いるフォトリフレクタのホルダ（カバー）です．  
 
@@ -156,7 +158,7 @@
     ![](../images/3dprint_swing1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## 旋回軸用グラデーションリング
+### 旋回軸用グラデーションリング
 
 下部走行体と上部旋回体の間の旋回角の推定に用いるグラデーションのついたテープを貼り付けるリング状の台座です．  
 
@@ -170,7 +172,7 @@
     ![](../images/3dprint_swing2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## バッテリホルダベース
+### バッテリホルダベース
 
 キャビンがあった場所にモバイルバッテリ用のホルダを取り付けるための台座です．  
 
@@ -184,7 +186,7 @@
     ![](../images/3dprint_battery1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## バッテリホルダ
+### バッテリホルダ
 
 制御用電源として用いるモバイルバッテリを載せるホルダです．  
 
@@ -198,7 +200,7 @@
     ![](../images/3dprint_battery2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 
-## Rasppbery Piマウント
+### Rasppbery Piマウント
 
 Rasppbery Piを取り付けるための台座兼駆動用バッテリ搭載スペースのカバーです．  
 

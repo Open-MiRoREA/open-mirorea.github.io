@@ -8,19 +8,20 @@ theme:
   icon:
     logo: material/excavator
   features:
-    - navigation.tabs          # 上部にタブ型メニュー
-    - navigation.expand
-    - navigation.footer
-    - toc.integrate
+    - navigation.tabs         # 上部にタブ型メニュー
+    - navigation.expand       # 左ナビゲーションのセクションを自動展開
+    - navigation.top          # 「トップへ戻る」を表示
+    - navigation.footer       # ページ下部に「前 / 次ページ」を表示
+    - toc.integrate           # 左ナビゲーションに目次を統合
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - attr_list
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - md_in_html
+  - attr_list                 # Markdown要素に属性追加（図のレイアウト用）
+  - admonition                # 注意・警告などのブロック (!!! note / warning)
+  - pymdownx.details          # 折りたたみブロック (??? note)
+  - pymdownx.superfences      # コードブロックの拡張（タブやネスト対応）
+  - md_in_html                # HTMLブロック内でもMarkdownを有効にする（トップページのロボットのカード用）
 nav:
   - Home: index.md
   - About: about.md
