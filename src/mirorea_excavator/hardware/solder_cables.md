@@ -1,24 +1,9 @@
 （Under preparation）
 
 
+## ケーブルの作製
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+（Under preparation）
 
 
 ## クローラ用，旋回・ブーム用モータケーブルの延長
@@ -62,8 +47,6 @@
 
 ![](../images/wiring_battery1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
-
-
 ケーブルの作製で用意したXHコネクタを取り付けた長さ100 mmのダブルコードと切断したケーブルの被膜を剥いで芯線をはんだ付けしてつなぎます．  
 赤と赤，黒と黒の線同士が繋がって,延長された状態になっていることを確認してください．  
 また，隣の線の間で導通しないように，熱収縮チューブを各線のはんだ付けした箇所に被せてください．  
@@ -71,3 +54,50 @@
 ![](../images/cable_battery3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
 
 ![](../images/wiring_battery2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+
+## ポテンショメータへのケーブルのはんだ付け
+
+（Under preparation）
+
+
+## 制御基板のはんだ付け
+
+回路図，基板上のシルク，写真を参考に各部品をはんだ付けする．  
+コネクタ，ICソケット，LEDは向きに注意すること．  
+
+!!! note
+    写真では，抵抗が内蔵されたLEDを使っています．  
+    このため，R3には抵抗をつけずに，余ったLEDの足でジャンプさせています．  
+    抵抗が必要な場合には，R3にはんだ付けしてください．  
+
+!!! note
+    IMU（Z1），バッテリ電圧測定用の分圧抵抗（R1，R2），拡張用コネクタ（J5，J6）はオプションです．  
+    不要であればはんだ付けしなくても構いません．  
+    また，拡張用コネクタ（J5，J6）は必要に応じて他のコネクタに変更しても構いません．      
+
+![](../images/solder_ctrl1.jpg){ style="display:block; margin:0 auto; max-height:500px;" }
+
+![](../images/solder_ctrl2.jpg){ style="display:block; margin:0 auto; max-height:500px;" }
+
+![](../images/solder_ctrl3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+基板上のシルクや写真を参考に，ADコンバータ，モータドライバ，IMUを基板上のソケットに取り付ける．  
+いずれも向きに注意すること．  
+また，モータドライバやIMUにピンヘッダが付けられていない場合には，先にはんだ付けする．  
+
+![](../images/solder_ctrl4.jpg){ style="display:block; margin:0 auto; max-height:500px;" }
+
+![](../images/solder_ctrl5.jpg){ style="display:block; margin:0 auto; max-height:500px;" }
+
+
+## 旋回角推定用のセンサ基板のはんだ付け
+
+回路図，基板上のシルク，写真を参考に各部品をはんだ付けする．  
+フォトリフレクタ（U1）は向きに注意すること．  
+
+![](../images/solder_swing1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+![](../images/solder_swing2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+
+![](../images/solder_swing3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
