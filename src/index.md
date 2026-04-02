@@ -9,6 +9,8 @@ Open MiRoREA Project（オープン ミロリア プロジェクト）は，土�
 
 ## :material-update: What's new
 
+- **2026-04-02**
+    MiRoREA Excavatorの[制御基板の設計データ](https://github.com/Open-MiRoREA/mirorea_excavator_control_board)を公開しました．（作り方は後日更新します．）
 - **2026-03-12**  
     MiRoREA Excavatorのハードウェアの作り方の一部（配線と組立て）を更新しました． 
 - **2026-03-09**  
@@ -55,4 +57,4 @@ Open MiRoREA Project（オープン ミロリア プロジェクト）は，土�
 
 ## :material-email-outline: Contact
 
-（Under preparation）
+- :material-email-outline: open-mirorea@googlegroups.com
