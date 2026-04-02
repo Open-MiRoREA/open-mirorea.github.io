@@ -10,21 +10,19 @@ Open MiRoREA Project（オープン ミロリア プロジェクト）は，土�
 ## :material-update: What's new
 
 - **2026-04-02**  
-    MiRoREA Excavatorの[制御基板の設計データ](https://github.com/Open-MiRoREA/mirorea_excavator_control_board)を公開しました．（作り方は後日更新します．）
+    MiRoREA Excavatorの[制御基板の設計データ](https://github.com/Open-MiRoREA/mirorea_excavator_control_board)を公開しました．（作り方は後日更新します．）  
 - **2026-03-12**  
-    MiRoREA Excavatorのハードウェアの作り方の一部（配線と組立て）を更新しました． 
+    MiRoREA Excavatorのハードウェアの作り方の一部（配線と組立て）を更新しました．  
 - **2026-03-09**  
     MiRoREA Excavatorの[3Dプリント部品のデータ](https://github.com/Open-MiRoREA/mirorea_excavator_cad)を公開し，ハードウェアの作り方の一部（3Dプリント部品の造形）を更新しました．  
 - **2026-02-27**  
     ほったらかしになっておりましたが，MiRoREA Excavatorのハードウェアの作り方の一部（旋回角推定センサの取り付け）を更新しました．  
 - **2026-02-23**  
-    MiRoREA Excavatorを用いて，無人化施工を体験するデモを授業内で実施しました．  
-    （詳細は後日どこかで報告します．）  
+    MiRoREA Excavatorを用いて，無人化施工を体験するデモを授業内で実施しました．（詳細は後日どこかで報告します．）  
 
     ??? quote "過去のお知らせ"
         - **2025-10-16**  
-            MiRoREA Excavatorのハードウェアの作り方の一部を更新しました．  
-            （書きやすいところから書いて順次更新しているので，まだ作れる状態ではありません．完成次第お知らせします．）  
+            MiRoREA Excavatorのハードウェアの作り方の一部を更新しました．（書きやすいところから書いて順次更新しているので，まだ作れる状態ではありません．完成次第お知らせします．）  
         - **2025-10-10**  
             ショベルとダンプの各ロボットの概要ページを更新しました．  
         - **2025-10-09**  
@@ -57,4 +55,4 @@ Open MiRoREA Project（オープン ミロリア プロジェクト）は，土�
 
 ## :material-email-outline: Contact
 
-- :material-email-outline: open-mirorea@googlegroups.com
+- open-mirorea@googlegroups.com
