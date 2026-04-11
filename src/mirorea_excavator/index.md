@@ -2,7 +2,7 @@
 
 MiRoREA Excavatorは，市販のラジコンをベースに，制御用ボードPCやセンサ等を組み込みロボット化した，ショベル型の模型建設ロボットです．
 
-![MiRoREA Excavator overview](./images/mirorea_excavator.jpg){ style="display:block; margin:0 auto; width:300px;" }
+![MiRoREA Excavator overview](./images/mirorea_excavator.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 !!! info "作業・公開の進捗状況"
     - **概要**: 執筆中，一部完成

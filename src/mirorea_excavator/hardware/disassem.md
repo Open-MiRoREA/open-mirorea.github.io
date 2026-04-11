@@ -9,11 +9,11 @@ MiRoREA Excavatorは市販のショベル型のラジコンをベースにして
 部品の取り付けの邪魔になるため，一度左右のクローラベルトを取り外します．  
 クローラベルトを少し引っ張りながら，スプロケットから外すように外側にずらすと，クローラベルトを取り外すことができます．
 
-![](../images/disassem_belt1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/disassem_belt1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/disassem_belt2.jpg){ style="display:block; margin:0 auto; max-height:300px;" } 
+![](../images/disassem_belt2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 
 
-![](../images/disassem_belt3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/disassem_belt3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ## 後部カバーの取り外し
@@ -23,15 +23,15 @@ MiRoREA Excavatorは市販のショベル型のラジコンをベースにして
 （ねじは再度カバーを取り付ける際に使用します．）  
 後部カバーから電源ケーブルが伸びていると思いますが，これは使用しないので，基板からコネクタを外し，後部カバーからも外して構いません．    
 
-![](../images/disassem_cover1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/disassem_cover1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/disassem_cover2.jpg){ style="display:block; margin:0 auto; max-height:300px;" } 
+![](../images/disassem_cover2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 
 
-![](../images/disassem_cover3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/disassem_cover3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/disassem_cover4.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/disassem_cover4.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/disassem_cover5.jpg){ style="display:block; margin:0 auto; max-height:300px;" } 
+![](../images/disassem_cover5.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 
 
 
 ## 不要部品の取り外し
@@ -41,14 +41,14 @@ MiRoREA Excavatorは市販のショベル型のラジコンをベースにして
 後部のねじを外し，前方の爪が外れるように引き抜くと取り外すことができます．  
 （2本のねじの内，1本は3Dプリント部品の取り付けに使用します．）
 
-![](../images/disassem_circuit1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/disassem_circuit1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/disassem_circuit2.jpg){ style="display:block; margin:0 auto; max-height:300px;" } 
+![](../images/disassem_circuit2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 
 
-![](../images/disassem_circuit3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/disassem_circuit3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/disassem_cabin.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/disassem_cabin.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 また，後部カバー上のバッテリが入るスペースのカバーも使用しないので，取り外してください．  
 
-![](../images/disassem_lid.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+![](../images/disassem_lid.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }

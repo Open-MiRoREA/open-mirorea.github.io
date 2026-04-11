@@ -63,7 +63,7 @@
 - **サポート材**  
     不要
 - **積層方向**  
-    ![](../images/3dprint_boom1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_boom1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### ブーム用ポテンショメータシャフト
@@ -79,7 +79,7 @@
 - **積層方向**  
     根元の片側が斜めにカットされているため，図のように，その面が上になるように設定してください．  
 
-    ![](../images/3dprint_boom2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_boom2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### アーム用ポテンショメータマウント
@@ -93,7 +93,7 @@
 - **サポート材**  
     不要
 - **積層方向**  
-    ![](../images/3dprint_arm1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_arm1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### アーム用ポテンショメータシャフト
@@ -107,7 +107,7 @@
 - **サポート材**  
     必要
 - **積層方向**  
-    ![](../images/3dprint_arm2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_arm2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### バケット用ポテンショメータマウント
@@ -121,7 +121,7 @@
 - **サポート材**  
     必要
 - **積層方向**  
-    ![](../images/3dprint_bucket1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_bucket1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### バケット用ポテンショメータシャフト
@@ -137,11 +137,11 @@
 - **積層方向**  
     外側のカットされた面が下になるように設定してください．  
 
-    ![](../images/3dprint_bucket2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_bucket2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-    ![](../images/3dprint_bucket3.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_bucket3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
     
-    ![](../images/3dprint_bucket4.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_bucket4.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### 旋回軸用フォトリフレクタホルダ
@@ -155,7 +155,7 @@
 - **サポート材**  
     不要
 - **積層方向**  
-    ![](../images/3dprint_swing1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_swing1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### 旋回軸用グラデーションリング
@@ -169,7 +169,7 @@
 - **サポート材**  
     不要
 - **積層方向**  
-    ![](../images/3dprint_swing2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_swing2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### バッテリホルダベース
@@ -183,7 +183,7 @@
 - **サポート材**  
     必要
 - **積層方向**  
-    ![](../images/3dprint_battery1.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_battery1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### バッテリホルダ
@@ -197,7 +197,7 @@
 - **サポート材**  
     不要
 - **積層方向**  
-    ![](../images/3dprint_battery2.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_battery2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ### Rasppbery Piマウント
@@ -211,4 +211,4 @@ Rasppbery Piを取り付けるための台座兼駆動用バッテリ搭載ス�
 - **サポート材**  
     必要
 - **積層方向**  
-    ![](../images/3dprint_raspi.jpg){ style="display:block; margin:0 auto; max-height:300px;" }
+    ![](../images/3dprint_raspi.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }

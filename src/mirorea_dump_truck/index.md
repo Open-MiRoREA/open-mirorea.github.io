@@ -2,7 +2,7 @@
 
 MiRoREA Dump Truckは，シリアルサーボモータを用いたベッセル付きの対向二輪のダンプトラック型の模型建設ロボットです．
 
-![MiRoREA Dump Truck overview](./images/mirorea_dump_truck.jpg){ style="display:block; margin:0 auto; width:300px;" }
+![MiRoREA Dump Truck overview](./images/mirorea_dump_truck.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 !!! warning
     使用しているモータが入手しにくくなっているため，別のモータへの変更を検討しています．  

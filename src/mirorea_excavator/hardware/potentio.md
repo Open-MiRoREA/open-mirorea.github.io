@@ -18,11 +18,11 @@
     また，裏面にはんだが多くついていると，ポテンショメータが浮いてしまうことがあります．  
     この場合は，はんだを取り除くか，少しピンを曲げて取り付けてください．  
 
-![](../images/assem_potentio1.jpg){ style="display:block; margin:0 auto; width:400px;" }
+![](../images/assem_potentio1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/assem_potentio2.jpg){ style="display:block; margin:0 auto; width:400px;" }
+![](../images/assem_potentio2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/assem_potentio3.jpg){ style="display:block; margin:0 auto; width:600px;" }
+![](../images/assem_potentio3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:600px;" }
 
 
 ## 3Dプリント部品の各関節への取り付け
@@ -46,18 +46,18 @@
 下図の赤の破線のように，部品の辺や溝を合わせると，概ねブームの回転軸とポテンショメータの回転軸が合います．  
 接着剤は斜線の部分につけてください．  
 
-![](../images/assem_boom1.jpg){ style="display:block; margin:0 auto; width:400px;" }
+![](../images/assem_boom1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/assem_boom2.jpg){ style="display:block; margin:0 auto; width:400px;" } 
+![](../images/assem_boom2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 
 
 ポテンショメータを回転させる軸は，ポテンショメータの穴に挿した上で，ブーム本体のフレームに貼り付けます．  
 下図のように，破線の位置を合わせて取り付けてください．  
 特に，ポテンショメータの穴と3Dプリントの軸はDカットになっているので，無理に取り付けず，回転させて位置を合わせてください．  
 接着剤は斜線の部分につけてください．  
 
-![](../images/assem_boom3.jpg){ style="display:block; margin:0 auto; width:400px;" }
+![](../images/assem_boom3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/assem_boom4.jpg){ style="display:block; margin:0 auto; width:400px;" } 
+![](../images/assem_boom4.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 
 
 ### アーム
 
@@ -65,18 +65,18 @@
 下図のように，破線の位置を合わせて取り付けてください．  
 3Dプリントのマウントの円形の突起は，軸上の穴に入ります．  
 
-![](../images/assem_arm1.jpg){ style="display:block; margin:0 auto; width:400px;" }
+![](../images/assem_arm1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/assem_arm2.jpg){ style="display:block; margin:0 auto; width:400px;" } 
+![](../images/assem_arm2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 
 
 ポテンショメータを回転させる軸は，ポテンショメータの穴に挿した上で，アームのフレームに貼り付けます．  
 下図のように，破線の位置を合わせて取り付けてください．  
 特に，ポテンショメータの穴と3Dプリントの軸はDカットになっているので，無理に取り付けず，回転させて位置を合わせてください．  
 接着剤は斜線の部分につけてください．  
 
-![](../images/assem_arm3.jpg){ style="display:block; margin:0 auto; width:400px;" }
+![](../images/assem_arm3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/assem_arm4.jpg){ style="display:block; margin:0 auto; width:400px;" } 
+![](../images/assem_arm4.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 
 
 ### バケット
 
@@ -86,15 +86,15 @@
 正七角形になっているため，どの向きでも取り付けられますが，3Dプリント時の底面（側面のカットされている面）が赤線の位置になる（バケットを動作させるリンク側に来る）ようにしてください．  
 なお，接着剤はなしで大丈夫です．  
 
-![](../images/assem_bucket1.jpg){ style="display:block; margin:0 auto; width:400px;" }
+![](../images/assem_bucket1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/assem_bucket2.jpg){ style="display:block; margin:0 auto; width:400px;" } 
+![](../images/assem_bucket2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 
 
 ポテンショメータは，バケットのリンク軸左側のアームのフレームに貼り付けます．  
 下図のように，破線の位置を合わせて取り付けてください．  
 特に，ポテンショメータの穴と3Dプリントの軸はDカットになっているので，無理に取り付けず，回転させて位置を合わせてください．    
 接着剤は斜線の部分につけてください．  
 
-![](../images/assem_bucket3.jpg){ style="display:block; margin:0 auto; width:400px;" }
+![](../images/assem_bucket3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/assem_bucket4.jpg){ style="display:block; margin:0 auto; width:400px;" } 
+![](../images/assem_bucket4.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" } 

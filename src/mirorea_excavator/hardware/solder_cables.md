@@ -19,19 +19,19 @@
     不要であればはんだ付けしなくても構いません．  
     また，拡張用コネクタ（J5，J6）は必要に応じて他のコネクタに変更しても構いません．      
 
-![](../images/solder_ctrl1.jpg){ style="display:block; margin:0 auto; max-width:600px;" }
+![](../images/solder_ctrl1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:600px;" }
 
-![](../images/solder_ctrl2.jpg){ style="display:block; margin:0 auto; max-width:600px;" }
+![](../images/solder_ctrl2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:600px;" }
 
-![](../images/solder_ctrl3.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/solder_ctrl3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 基板上のシルクや写真を参考に，ADコンバータ，モータドライバ，IMUを基板上のソケットに取り付けます．  
 いずれも向きに注意してください．  
 また，モータドライバやIMUにピンヘッダが付けられていない場合には，先にはんだ付けしてください．  
 
-![](../images/solder_ctrl4.jpg){ style="display:block; margin:0 auto; max-width:600px;" }
+![](../images/solder_ctrl4.jpg){ style="display:block; margin:0 auto; width:100%; max-width:600px;" }
 
-![](../images/solder_ctrl5.jpg){ style="display:block; margin:0 auto; max-width:600px;" }
+![](../images/solder_ctrl5.jpg){ style="display:block; margin:0 auto; width:100%; max-width:600px;" }
 
 
 ## 旋回角推定用のセンサ基板のはんだ付け
@@ -39,11 +39,11 @@
 基板上のシルク，写真，回路図を参考に各部品をはんだ付けします．  
 フォトリフレクタ（U1）は向きに注意してください．  
 
-![](../images/solder_swing1.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/solder_swing1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/solder_swing2.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/solder_swing2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/solder_swing3.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/solder_swing3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ## 電源ケーブルの延長
@@ -57,7 +57,7 @@
 
 まず，カバーの裏に伸びている電源ケーブルを先端で切断し，コネクタを取り外します．  
 
-![](../images/cable_battery1.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_battery1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 次に，長さ100 mmのダブルコードを作製し，片側に2ピンのXHコネクタをつけ，反対側の被膜を剥いでおきます．
 
@@ -67,15 +67,15 @@
     XHコネクタの1番が黒（マイナス側），2番が赤（プラス側）です．  
     コネクタのハウジング上に刻印された番号や1番側の三角形のマークを参考にしてください．  
 
-![](../images/cable_battery2.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_battery2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/cable_battery3.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_battery3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 最後に，カバーについている電源ケーブルと作製したケーブルの芯線をはんだ付けしてつなぎます．  
 赤と赤，黒と黒の線同士が繋がって,延長された状態になっていることを確認してください．  
 また，隣の線の間で導通しないように，熱収縮チューブを各線のはんだ付けした箇所に被せてください．  
 
-![](../images/cable_battery4.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_battery4.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ## クローラ用，旋回・ブーム用モータケーブルの延長
@@ -94,18 +94,18 @@
 
 まず，元々ついているクローラ用モータケーブルと旋回・ブーム用モータケーブルをぞれぞれ切断します．  
 
-![](../images/cable_motor1.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_motor1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 長さ150 mmの4芯のリボンケーブルを作製し，被膜を剥いで切断したケーブルの芯線とはんだ付けしてつなぎます．  
 必ず元のケーブルの同じ色の線同士が繋がって，延長された状態になっていることを確認してください．  
 また，隣の線の間で導通しないように，熱収縮チューブを各線のはんだ付けした箇所に被せてください．  
 必要に応じて，はんだ付けした箇所がばらけないように，さらに外側から大きい熱収縮チューブでまとめても構いません．  
 
-![](../images/cable_motor2.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_motor2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/cable_motor3.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_motor3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/cable_motor4.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_motor4.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 
 ## センサケーブルの作製
@@ -125,9 +125,9 @@
 
 両端にQIコネクタを取り付けた長さ40cmの3芯のリボンケーブルを1本作ります．  
 
-![](../images/cable_sensor1.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_sensor1.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/cable_sensor2.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_sensor2.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
 ### ブーム・アーム・バケット
 
@@ -136,6 +136,6 @@
 ポテンショメータが本来は表面実装用のためピンが小さいですが，上手くピンの上面にはんだを盛って取り付けてください．  
 また，QIコネクタ側のケーブルがクロスしていることに注意してください．  
 
-![](../images/cable_sensor3.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_sensor3.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
 
-![](../images/cable_sensor4.jpg){ style="display:block; margin:0 auto; max-width:400px;" }
+![](../images/cable_sensor4.jpg){ style="display:block; margin:0 auto; width:100%; max-width:400px;" }
