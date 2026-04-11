@@ -20,7 +20,7 @@
     
     
       
-        <title>Step 3 はんだ付けとケーブルの製作 - Open MiRoREA Project</title>
+        <title>Step 3 基板のはんだ付けとケーブルの作製 - Open MiRoREA Project</title>
       
     
     
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Step 3 はんだ付けとケーブルの製作
+              Step 3 基板のはんだ付けとケーブルの作製
             
           </span>
         </div>
@@ -592,7 +592,7 @@
   
   
   <span class="md-ellipsis">
-    Step 3 はんだ付けとケーブルの製作
+    Step 3 基板のはんだ付けとケーブルの作製
     
   </span>
   
@@ -605,7 +605,7 @@
   
   
   <span class="md-ellipsis">
-    Step 3 はんだ付けとケーブルの製作
+    Step 3 基板のはんだ付けとケーブルの作製
     
   </span>
   
@@ -628,7 +628,7 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      クローラ用，旋回・ブーム用モータケーブルの延長
+      制御基板のはんだ付け
     </span>
   </a>
   
@@ -637,9 +637,60 @@
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
+      旋回角推定用のセンサ基板のはんだ付け
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
       電源ケーブルの延長
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      クローラ用，旋回・ブーム用モータケーブルの延長
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      センサケーブルの作製
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="センサケーブルの作製">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      旋回
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      ブーム・アーム・バケット
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -828,10 +879,66 @@
   
 
 
-  <h1>Step 3 はんだ付けとケーブルの製作</h1>
+  <h1>Step 3 基板のはんだ付けとケーブルの作製</h1>
 
-<p>（Under preparation）</p>
-<h2 id="_1">クローラ用，旋回・ブーム用モータケーブルの延長</h2>
+<!-- # 基板のはんだ付けとケーブルの作製 -->
+
+<p>制御基板とセンサ基板に部品をはんだ付けします．<br />
+また，併せて必要な電源，モータ，センサ用のケーブルも作ります．  </p>
+<h2 id="_1">制御基板のはんだ付け</h2>
+<p>基板上のシルク，写真，回路図（基板データのリポジトリを参照）を参考に各部品をはんだ付けします．<br />
+コネクタ，ICソケット，LEDは向きに注意してください．  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>写真では，抵抗が内蔵されたLEDを使っています．<br />
+このため，R3には抵抗をつけずに，余ったLEDの足でジャンプさせています．<br />
+抵抗が必要な場合には，R3にはんだ付けしてください．  </p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>IMU（Z1），バッテリ電圧測定用の分圧抵抗（R1，R2），拡張用コネクタ（J5，J6）はオプションです．<br />
+不要であればはんだ付けしなくても構いません．<br />
+また，拡張用コネクタ（J5，J6）は必要に応じて他のコネクタに変更しても構いません．      </p>
+</div>
+<p><img alt="" src="../../images/solder_ctrl1.jpg" style="display:block; margin:0 auto; width:100%; max-width:600px;" /></p>
+<p><img alt="" src="../../images/solder_ctrl2.jpg" style="display:block; margin:0 auto; width:100%; max-width:600px;" /></p>
+<p><img alt="" src="../../images/solder_ctrl3.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p>基板上のシルクや写真を参考に，ADコンバータ，モータドライバ，IMUを基板上のソケットに取り付けます．<br />
+いずれも向きに注意してください．<br />
+また，モータドライバやIMUにピンヘッダが付けられていない場合には，先にはんだ付けしてください．  </p>
+<p><img alt="" src="../../images/solder_ctrl4.jpg" style="display:block; margin:0 auto; width:100%; max-width:600px;" /></p>
+<p><img alt="" src="../../images/solder_ctrl5.jpg" style="display:block; margin:0 auto; width:100%; max-width:600px;" /></p>
+<h2 id="_2">旋回角推定用のセンサ基板のはんだ付け</h2>
+<p>基板上のシルク，写真，回路図を参考に各部品をはんだ付けします．<br />
+フォトリフレクタ（U1）は向きに注意してください．  </p>
+<p><img alt="" src="../../images/solder_swing1.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p><img alt="" src="../../images/solder_swing2.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p><img alt="" src="../../images/solder_swing3.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<h2 id="_3">電源ケーブルの延長</h2>
+<p>駆動用バッテリを繋ぐ電源ケーブルも元の状態だと短いため，カバーの外に出るように延長します． </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>モータのケーブルと同様に，元々ついているコネクタを切断し，追加のケーブルをはんだ付けして延長する方法を説明しますが，他の方法でも構いません．<br />
+ここでは，元々ついているケーブルを切断し，追加のケーブルをはんだ付けして延長する方法を説明します．<br />
+ただし，必要な長さになって，両端に正しいコネクタがついていれば，新たにケーブルを作り直す等，他の方法でも構いません．  </p>
+</div>
+<p>まず，カバーの裏に伸びている電源ケーブルを先端で切断し，コネクタを取り外します．  </p>
+<p><img alt="" src="../../images/cable_battery1.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p>次に，長さ100 mmのダブルコードを作製し，片側に2ピンのXHコネクタをつけ，反対側の被膜を剥いでおきます．</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>コネクタの向きに注意してください．<br />
+逆にすると壊れる可能性があります．<br />
+XHコネクタの1番が黒（マイナス側），2番が赤（プラス側）です．<br />
+コネクタのハウジング上に刻印された番号や1番側の三角形のマークを参考にしてください．  </p>
+</div>
+<p><img alt="" src="../../images/cable_battery2.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p><img alt="" src="../../images/cable_battery3.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p>最後に，カバーについている電源ケーブルと作製したケーブルの芯線をはんだ付けしてつなぎます．<br />
+赤と赤，黒と黒の線同士が繋がって,延長された状態になっていることを確認してください．<br />
+また，隣の線の間で導通しないように，熱収縮チューブを各線のはんだ付けした箇所に被せてください．  </p>
+<p><img alt="" src="../../images/cable_battery4.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<h2 id="_4">クローラ用，旋回・ブーム用モータケーブルの延長</h2>
 <p>クローラを回転させるモータのケーブルと旋回軸とブームを回転させるモータのケーブルが元の状態だと短いため，カバーの外に出るように延長します．  </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -844,28 +951,39 @@
 </ul>
 <p>などがあります．  </p>
 </div>
-<p>元々ついているクローラ用モータケーブルと旋回・ブーム用モータケーブルをぞれぞれ切断します．  </p>
-<p><img alt="" src="../../images/wiring_motor1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
-<p>ケーブルの作製で用意した4芯，長さ150 mmのリボンケーブルと切断したケーブルの被膜を剥いで芯線をはんだ付けしてつなぎます．<br />
-必ず元のケーブルの同じ色の線同士が繋がって,延長された状態になっていることを確認してください．<br />
+<p>まず，元々ついているクローラ用モータケーブルと旋回・ブーム用モータケーブルをぞれぞれ切断します．  </p>
+<p><img alt="" src="../../images/cable_motor1.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p>長さ150 mmの4芯のリボンケーブルを作製し，被膜を剥いで切断したケーブルの芯線とはんだ付けしてつなぎます．<br />
+必ず元のケーブルの同じ色の線同士が繋がって，延長された状態になっていることを確認してください．<br />
 また，隣の線の間で導通しないように，熱収縮チューブを各線のはんだ付けした箇所に被せてください．<br />
 必要に応じて，はんだ付けした箇所がばらけないように，さらに外側から大きい熱収縮チューブでまとめても構いません．  </p>
-<p><img alt="" src="../../images/cable_motor.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
-<p><img alt="" src="../../images/wiring_motor2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
-<p><img alt="" src="../../images/wiring_motor3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
-<h2 id="_2">電源ケーブルの延長</h2>
-<p>駆動用バッテリを繋ぐ電源ケーブルも元の状態だと短いため，カバーの外に出るように延長します． </p>
+<p><img alt="" src="../../images/cable_motor2.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p><img alt="" src="../../images/cable_motor3.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p><img alt="" src="../../images/cable_motor4.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<h2 id="_5">センサケーブルの作製</h2>
+<p>上部旋回体と下部走行体の間の旋回角度を推定するためのフォトリフレクタ，ブーム・アーム・バケットの回転角度を計測するためのポテンショメータを制御基板に接続するためのケーブルを作製します．  </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>写真に従って，どのピンが接続されているかをよく確認して作ってください．<br />
+接続を間違うと計測できません．<br />
+コネクタは，1番に三角形のマークがついているはずなので，参考にしてください．  </p>
+</div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>モータのケーブルと同様に，元々ついているコネクタを切断し，追加のケーブルをはんだ付けして延長する方法を説明しますが，他の方法でも構いません．  </p>
+<p>必要な長さがあり，同じピン同士が接続されていれば，ケーブルの色は何色でも構いません．<br />
+なお，長さ60 cmの9芯（以上）のリボンケーブルから，必要な分を裂いたり切ったりすることで，全て作ることができます．  </p>
 </div>
-<p>カバーの裏に伸びている電源ケーブルを先端で切断し，コネクタを取ります．  </p>
-<p><img alt="" src="../../images/wiring_battery1.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
-<p>ケーブルの作製で用意したXHコネクタを取り付けた長さ100 mmのダブルコードと切断したケーブルの被膜を剥いで芯線をはんだ付けしてつなぎます．<br />
-赤と赤，黒と黒の線同士が繋がって,延長された状態になっていることを確認してください．<br />
-また，隣の線の間で導通しないように，熱収縮チューブを各線のはんだ付けした箇所に被せてください．  </p>
-<p><img alt="" src="../../images/cable_battery3.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
-<p><img alt="" src="../../images/wiring_battery2.jpg" style="display:block; margin:0 auto; max-height:300px;" /></p>
+<h3 id="_6">旋回</h3>
+<p>両端にQIコネクタを取り付けた長さ40cmの3芯のリボンケーブルを1本作ります．  </p>
+<p><img alt="" src="../../images/cable_sensor1.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p><img alt="" src="../../images/cable_sensor2.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<h3 id="_7">ブーム・アーム・バケット</h3>
+<p>片側にポテンショメータをはんだ付けし，反対側にQIコネクタを取り付けた3芯のリボンケーブルを3本作ります． <br />
+リボンケーブルの長さは，それぞれブーム用が20 cm，アーム用が45 cm，バケット用が60 cmです．<br />
+ポテンショメータが本来は表面実装用のためピンが小さいですが，上手くピンの上面にはんだを盛って取り付けてください．<br />
+また，QIコネクタ側のケーブルがクロスしていることに注意してください．  </p>
+<p><img alt="" src="../../images/cable_sensor3.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
+<p><img alt="" src="../../images/cable_sensor4.jpg" style="display:block; margin:0 auto; width:100%; max-width:400px;" /></p>
 
 
 
